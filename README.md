@@ -141,11 +141,172 @@ Run.bat: Launches G.A.L with a gamer-friendly interface, making it easy to use.
 
 Together, these tools form a complete package for gamers who want to keep their systems running smoothly and efficiently. Whether you're a casual player or a hardcore esports competitor, G.A.L is your ultimate ally in the quest for performance.
 
-# Install 
+# Install
 
-Step 1. Install the latest version of python https://www.python.org/downloads/
-Step 2. Install G.A.L with Install 
-Step 3. Run G.A.L after Install is Completed
-Step 4. Enjoy!!
+To download G.A.L (Gamers As Legions System Optimizer) from its GitHub repository, follow these steps. This guide will walk you through downloading the project using Git or directly as a ZIP file if you don’t want to use Git.
 
+Option 1: Download Using Git (Recommended for Developers)
 
+Step 1: Install Git
+
+If you don’t have Git installed:
+
+Go to git-scm.com.
+
+Download the installer for your operating system.
+
+Run the installer and follow the prompts.
+
+Step 2: Clone the Repository
+
+Open a terminal (Command Prompt, PowerShell, or Git Bash).
+
+Navigate to the directory where you want to download G.A.L. For example:
+
+cd C:\Users\YourUsername\Documents
+
+Run the git clone command to download the repository:
+
+git clone https://github.com/xxxnightvoidxxx/G.A.L-Gamers-As-Legions-System-Optimizer.git
+
+This will create a folder named G.A.L-Gamers-As-Legions-System-Optimizer in your current directory.
+
+Step 3: Navigate to the G.A.L Folder
+
+After cloning, navigate into the G.A.L folder:
+
+cd G.A.L-Gamers-As-Legions-System-Optimizer
+
+Option 2: Download as a ZIP File (Easiest for Non-Developers)
+
+Step 1: Go to the GitHub Repository
+
+Open your web browser and go to the G.A.L repository:
+
+https://github.com/xxxnightvoidxxx/G.A.L-Gamers-As-Legions-System-Optimizer.
+
+Step 2: Download the ZIP File
+
+On the repository page, click the green Code button.
+
+In the dropdown menu, click Download ZIP.
+
+Download ZIP
+
+The repository will be downloaded as a ZIP file to your computer.
+
+Step 3: Extract the ZIP File
+
+Locate the downloaded ZIP file (usually in your Downloads folder).
+
+Right-click the ZIP file and select Extract All.
+
+Choose a location to extract the files (e.g., C:\Users\YourUsername\Documents).
+
+Click Extract. This will create a folder named G.A.L-Gamers-As-Legions-System-Optimizer.
+
+Step 4: Navigate to the G.A.L Folder
+
+Open the extracted folder:
+
+C:\Users\YourUsername\Documents\G.A.L-Gamers-As-Legions-System-Optimizer
+
+Step 5: Install Dependencies
+
+G.A.L requires the psutil library to function. Install it using pip:
+
+Open a terminal (Command Prompt, PowerShell, or Git Bash).
+
+Navigate to the G.A.L folder (if you’re not already there):
+
+cd C:\Users\YourUsername\Documents\G.A.L-Gamers-As-Legions-System-Optimizer
+
+Run the following command to install the required library:
+
+pip install psutil
+
+Step 6: Run the Installer
+
+G.A.L comes with an Install.bat script to set up everything:
+
+Run the Install.bat script:
+
+Install.bat
+
+This script will:
+
+Check if Python and pip are installed.
+
+Install the psutil library if it’s not already installed.
+
+Step 7: Launch G.A.L
+
+Once the installation is complete, you can run G.A.L using the Run.bat script:
+
+Run the Run.bat script:
+
+Run.bat
+
+This will launch the G.A.L GUI, where you can start optimizing your system.
+
+Step 8: (Optional) Run G.A.L Directly
+
+If you prefer to run G.A.L without using the batch scripts, you can do so directly with Python:
+
+Navigate to the G.A.L folder (if you’re not already there):
+
+cd C:\Users\YourUsername\Documents\G.A.L-Gamers-As-Legions-System-Optimizer
+
+Run the G.A.L.py script:
+
+python G.A.L.py
+
+Troubleshooting
+
+Error: Python not found:
+
+Make sure Python is installed and added to your system’s PATH. You can check by running:
+
+python --version
+
+If this doesn’t work, reinstall Python and ensure the Add Python to PATH option is checked.
+
+Error: pip not found:
+
+Ensure pip is installed by running:
+
+pip --version
+
+If it’s not installed, you can install it by following the official guide: pip installation.
+
+Permission Errors:
+
+If you encounter permission errors, make sure to run your terminal or command prompt as an administrator.
+
+Summary
+
+Download the repository:
+
+Using Git:
+
+git clone https://github.com/xxxnightvoidxxx/G.A.L-Gamers-As-Legions-System-Optimizer.git
+
+Or download the ZIP file from GitHub and extract it.
+
+Navigate to the G.A.L folder:
+
+cd G.A.L-Gamers-As-Legions-System-Optimizer
+
+Install dependencies:
+
+pip install psutil
+
+Run the installer:
+
+Install.bat
+
+Launch G.A.L:
+
+Run.bat
+
+by xxxnightvoidxxx aka xxxsilentdeviantxxx
