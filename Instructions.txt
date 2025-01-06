@@ -1,0 +1,5 @@
+Step 1. Install the latest version of python https://www.python.org/downloads/
+Step 2. Install G.A.L with Install 
+Step 3. Run G.A.L after Install is Completed
+Step 4. Enjoy!!
+
